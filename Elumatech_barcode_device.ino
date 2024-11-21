@@ -12,7 +12,7 @@ int angleL = 45;
 int angleR = 45;
 
 void setup() {
-  Serial1.begin(115200);  // barcode scanner port... pin 8 is RX
+  Serial1.begin(115200);  // barcode scanner port... pin 2 (GPIO 1) is RX
   Keyboard.begin();
   MouseAbsolute.begin();  // 211,158 screen w,h in mm
 }
